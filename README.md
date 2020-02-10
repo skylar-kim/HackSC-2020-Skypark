@@ -3,6 +3,7 @@ Skypark is a program that is built with the edgeIQ API from alwaysAI.
 
 What is Skypark:
 Skypark is a real-time object detector that uses pre-trained computer vision models to calculate the number of parking spaces that are available in between x number of cars. The program can be run on a Raspberry Pi 4 and the video feed can be from a Pi 4 camera. 
+
 Skypark was the HackSC 2020 project with team members:
 Skylar Kim, Hung Tam, Kris Tanhueco, Katrina Ngo
 
