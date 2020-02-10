@@ -1,4 +1,4 @@
-# HackSC-2020-Skypark-
+# HackSC 2020 Skypark
 Skypark is a program that is built with the edgeIQ API from alwaysAI.
 
 What is Skypark:
