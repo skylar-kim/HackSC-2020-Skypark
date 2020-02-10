@@ -10,6 +10,9 @@ Skylar Kim, Hung Tam, Kris Tanhueco, Katrina Ngo
 I served as the main programmer and did the main set up of the hardware and software.
 Later in the process, Hung Tam and I figured out the logic and used the edgeIQ API to calculate the number of parking spaces that are available in between the cars. 
 
+
+the file 'realtime_object_detector' has the skypark.py that is the main program
+
 You can check out our demo here on Youtube:
 https://www.youtube.com/watch?v=ojqvGgKvx7c&feature=youtu.be
 
