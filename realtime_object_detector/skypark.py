@@ -39,11 +39,11 @@ def main():
                 results = obj_detect.detect_objects(frame, confidence_level=.5)
                 filtered_predictions = edgeiq.filter_predictions_by_label(results.predictions, ['car'])
                 
-                # keep pls :)
+                # puts only the car predictions in its own array
                 car_boxes = []
                 for i, prediction in enumerate(filtered_predictions):
                       car_boxes.append((i, prediction))
-                print(car_boxes)
+                # print(car_boxes)
                 
                 # finding the average width of the car
                 avg_width = 0
@@ -51,7 +51,7 @@ def main():
                   # print('label = {}, box = {}, width = {}'.format(prediction.label, prediction.box, prediction.box.width))
                    avg_width += prediction.box.width
                 
-                # UwU width sorting code
+                # width sorting code
                 if (len(filtered_predictions) != 0):
                    avg_width = avg_width / len(filtered_predictions)
                    print(avg_width) 
@@ -70,7 +70,7 @@ def main():
                     # for prediction in filtered_predictions:
                       # print('labelsorted = {}, boxsorted = {}, widthsorted = {}'.format(prediction.label, prediction.box, prediction.box.width))  
     
-               	# UwU distance calculation code
+               	# distance calculation code
                 spaces = 0
                 for i, prediction in enumerate(filtered_predictions):                
                    if(i < (len(filtered_predictions)-1)):
